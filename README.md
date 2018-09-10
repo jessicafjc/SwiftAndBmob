@@ -2,7 +2,7 @@
 
 <p>懒得自己搭后台，索性寻觅一款好用的云后台平台。以前用过Bmob，还是不错的。但是不得不说他们的官方文档更新的太烂的，现在还是N年以前的版本，如果按照官方的文档来用一定满江红。所以自己写一个适用于Swift4.0的使用文档作为参考。</p>
 
-<h1 id="toc_1">导入BmobSDK——3步即可</h1>
+<h2 id="toc_1">导入BmobSDK——3步即可</h2>
 
 <ul>
 <li>第一步：下载最新的SDK<a href="https://bmob.cn/sdk/Bmob_iOS_SDK_v2.3.0-20180411.zip">点击下载</a>，解压将BmobSDK.framework导入自己的项目里（官网的貌似不是最新的）</li>
@@ -24,7 +24,7 @@
 
 <p>运行一下没有报错~</p>
 
-<h1 id="toc_2">以上是BmobSDK的导入，接下来就是进入正题了</h1>
+<h3 id="toc_2">以上是BmobSDK的导入，接下来就是进入正题了</h3>
 
 <h2 id="toc_3">添加</h2>
 
@@ -41,9 +41,9 @@
         }
     }</code></pre></div>
 
-<h1 id="toc_4">查询</h1>
+<h2 id="toc_4">查询</h2>
 
-<h1 id="toc_5">单条数据查询</h1>
+<h3 id="toc_5">单条数据查询</h3>
 
 <div><pre class="line-numbers"><code class="language-none">
 func search()  {
@@ -65,7 +65,7 @@ func search()  {
  }
          </code></pre></div>
 
-<h1 id="toc_6">查询全部数据</h1>
+<h3 id="toc_6">查询全部数据</h3>
 
 <div><pre class="line-numbers"><code class="language-none">func searchAll()  {
 
